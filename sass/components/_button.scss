@@ -12,6 +12,11 @@
     box-shadow: 0 1rem 2rem rgba($color-dark, 0.5);
     border-radius: 9px;
     transition: all 0.8s;
+
+    @include respond(phone) {
+      font-size: 1.6rem;
+      //   padding: 1rem 2rem;
+    }
   }
 
   &:hover,
