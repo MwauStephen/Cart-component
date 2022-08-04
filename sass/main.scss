@@ -5,6 +5,14 @@
 // base file
 @import "base/base";
 @import "base/typography";
+@import "base/utilities";
+
+// component file
+@import "components/button";
+@import "components/product";
 
 // layout file
 @import "layout/grid";
+
+// pages file
+@import "page/home";
