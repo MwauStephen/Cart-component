@@ -13,10 +13,27 @@ body {
   text-transform: uppercase;
   margin-bottom: 3rem;
   display: inline-block;
+
+  @include respond(tab-port) {
+    font-size: 1.4rem;
+    margin-bottom: 2rem;
+  }
+
+  @include respond(phone) {
+    font-size: 1.2rem;
+    margin-bottom: 1.2rem;
+  }
 }
 .heading-primary {
   font-size: 6rem;
   font-weight: 900;
   text-transform: capitalize;
   margin-bottom: 4rem;
+
+  @include respond(phone) {
+    font-size: 4rem;
+  }
+  @include respond(tab-land) {
+    font-size: 3rem;
+  }
 }
