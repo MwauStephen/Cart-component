@@ -1,0 +1,26 @@
+.link {
+  &,
+  &:link,
+  &:visited {
+    font-size: 2rem;
+    color: #fff;
+    text-decoration: none;
+    background-color: $color-green-primary;
+    display: inline-block;
+    padding: 2rem 4rem;
+    margin-bottom: 2rem;
+    box-shadow: 0 1rem 2rem rgba($color-dark, 0.5);
+    border-radius: 9px;
+    transition: all 0.8s;
+  }
+
+  &:hover,
+  &:active {
+    background-color: #376b43;
+    color: #fff;
+  }
+
+  & i {
+    margin-right: 2rem;
+  }
+}
