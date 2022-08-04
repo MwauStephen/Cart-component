@@ -1,3 +1,21 @@
+/* 0-600px -> phone
+
+600px-900px -> tab-port
+
+900px-1200px -> tab-landscape
+
+1800px + -> big desktop
+*/
+/* $breakpoint argument choices
+ phone,tab-port,tab-land,big-desktop.
+ */
+/* computed media queries in ems for browser compatiablity.
+1em=16px
+phone=600px/16=37.5em
+tab-port=900px/16=56.25em
+tab-land=1200px/16=75em
+big-desktop=1800px/16=112.5em
+*/
 * {
   margin: 0;
   padding: 0;
