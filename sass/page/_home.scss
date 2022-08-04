@@ -1,3 +1,7 @@
 .section-cart {
   padding: 20rem 10rem;
+
+  @include respond(tab-port) {
+    padding: 15rem 5rem;
+  }
 }
